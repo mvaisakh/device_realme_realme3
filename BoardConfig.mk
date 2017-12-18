@@ -55,7 +55,7 @@ TARGET_KERNEL_SOURCE := kernel/realme/realme3
 TARGET_USES_64_BIT_BINDER := true
 
 # Audio
-USE_CUSTOM_AUDIO_POLICY := 1
+USE_XML_AUDIO_POLICY_CONF := 1
 
 # Dex
 ifeq ($(HOST_OS),linux)
