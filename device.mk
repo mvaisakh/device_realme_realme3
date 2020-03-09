@@ -62,7 +62,5 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES := \
     $(DEVICE_PATH)/configs/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml
 
-# Properties
--include $(LOCAL_PATH)/props.mk
 
 $(call inherit-product-if-exists, vendor/realme/realme3/realme3-vendor.mk)

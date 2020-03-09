@@ -92,6 +92,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 BUILD_WITHOUT_VENDOR := true
 
+# Props
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Recovery
 BOARD_USES_RECOVERY_AS_BOOT := false
 TARGET_NO_RECOVERY := true
