@@ -71,7 +71,4 @@ PRODUCT_COPY_FILES := \
     $(DEVICE_PATH)/configs/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
     $(DEVICE_PATH)/configs/seccomp/mediaextractor.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediaextractor.policy \
 
-# Properties
--include $(LOCAL_PATH)/props.mk
-
 $(call inherit-product-if-exists, vendor/realme/realme3/realme3-vendor.mk)

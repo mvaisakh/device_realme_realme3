@@ -1,0 +1,112 @@
+rild.libpath=mtk-ril.so
+rild.libargs=-d /dev/ttyC0
+
+
+# MTK, Infinity, 20090720 {
+wifi.interface=wlan0
+# MTK, Infinity, 20090720 }
+
+# MTK, mtk03034, 20101210 {
+ro.mediatek.wlan.wsc=1
+# MTK, mtk03034 20101210}
+# MTK, mtk03034, 20110318 {
+ro.mediatek.wlan.p2p=1
+# MTK, mtk03034 20110318}
+
+# MTK, mtk03034, 20101213 {
+mediatek.wlan.ctia=0
+# MTK, mtk03034 20101213}
+
+
+#
+wifi.tethering.interface=ap0
+#
+
+ro.opengles.version=196610
+#ro.kernel.qemu=1
+#ro.kernel.qemu.gles=0
+
+wifi.direct.interface=p2p0
+#dalvik.vm.heapgrowthlimit=256m
+#dalvik.vm.heapsize=512m
+
+# USB MTP WHQL
+ro.sys.usb.mtp.whql.enable=0
+
+# Power off opt in IPO
+sys.ipo.pwrdncap=2
+
+ro.sys.usb.storage.type=mtp
+
+# USB BICR function
+ro.sys.usb.bicr=no
+
+# USB Charge only function
+ro.sys.usb.charging.only=yes
+
+# audio
+ro.camera.sound.forced=0
+ro.audio.silent=0
+
+ro.zygote.preload.enable=0
+
+# temporary enables NAV bar (soft keys)
+qemu.hw.mainkeys=0
+
+ro.kernel.zio=38,108,105,16
+#ro.kernel.qemu=1
+#ro.kernel.qemu.gles=0
+#ro.boot.selinux=disable
+
+# Disable dirty region for Mali
+#debug.hwui.render_dirty_regions=false
+
+# performance
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+
+# disable ipo for development
+sys.ipo.disable=1
+
+ro.oppo.screen.heteromorphism=264,0:456,54
+
+ro.treble.enabled=true
+persist.sys.oiface.enable=2
+persist.sys.hardcoder.name=oiface
+persist.sys.oiface.feature=oiface:1f,oifaceim:ffffffff
+persist.bluetooth.disableabsvol=true
+persist.bluetooth.avrcpversion=avrcp14
+persist.bluetooth.iot.on=true
+persist.bluetooth.enableinbandringing=true
+persist.bluetooth.dualconnection.supported=false
+persist.bluetooth.blacklist_debug=0
+persist.vendor.bt.iotinfo.report.enable=true
+persist.sys.log.lfeh.test=true
+persist.sys.log.lfeh.default=false
+persist.sys.log.lfeh=true
+persist.sys.log.lfeh.delete=false
+dalvik.vm.heapmaxfree=16m
+dalvik.vm.heapminfree=4m
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heaptargetutilization=0.75
+persist.anr.enhancement=0
+ro.lcd.backlight.config_boe=11,816,5,246,397,665,912,1177,1473,1627,1890,2047
+ro.lcd.backlight.config_truly=11,816,5,246,397,665,912,1177,1473,1627,1890,2047
+ro.lcd.backlight.config_tianma=11,816,5,246,397,665,912,1177,1473,1627,1890,2047
+ro.lcd.backlight.config_dsjm=11,816,5,246,397,665,912,1177,1473,1627,1890,2047
+ro.lcd.backlight.config_jdi=11,851,7,280,435,699,943,1191,1465,1605,1847,2047
+ro.lcd.backlight.samsung_tenbit=10,176,9,45,70,130,214,345,546,686,1023
+ro.lcd.backlight.config_txd=11,816,5,246,397,665,912,1177,1473,1627,1890,2047
+ro.display.rc.size=81,81,66,66
+sys.oppo.nw.hongbao=1
+ro.camera.hfr.enable=1
+ro.camera.videoeis.enable=1
+ro.camera.temperature.limit=460
+persist.sys.dalvik.vm.lib.2=libart.so
+dalvik.vm.isa.arm64.variant=cortex-a53
+dalvik.vm.isa.arm64.features=default
+dalvik.vm.isa.arm.variant=cortex-a53
+dalvik.vm.isa.arm.features=default
+net.bt.name=Android
+dalvik.vm.stack-trace-dir=/data/anr
