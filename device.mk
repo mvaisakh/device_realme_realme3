@@ -54,6 +54,10 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+# Media
+PRODUCT_COPY_FILES := \
+    $(DEVICE_PATH)/configs/media_profiles_V1_0.dtd:$(TARGET_COPY_OUT_SYSTEM)/etc/media_profiles_V1_0.dtd
+
 # Power Profiles
 PRODUCT_COPY_FILES := \
     $(DEVICE_PATH)/configs/power_profile.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/power_profile/power_profile.xml
