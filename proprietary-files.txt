@@ -1,1 +1,114 @@
-# TODO
+# Audio
+lib/vendor.mediatek.hardware.audio@4.1.so
+lib64/vendor.mediatek.hardware.audio@4.1.so
+
+# Biometrics
+-framework/vendor.oppo.hardware.biometrics.face-V1.0-java.jar
+-framework/vendor.oppo.hardware.biometrics.fingerprint-V2.1-java.jar
+-framework/vendor.oppo.hardware.biometrics.fingerprintpay-V1.0-java.jar
+lib/vendor.oppo.hardware.biometrics.face@1.0.so
+lib/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
+lib/vendor.oppo.hardware.biometrics.fingerprintpay@1.0.so
+lib/vendor.oppo.hardware.oiface@1.0.so
+lib64/vendor.oppo.hardware.biometrics.face@1.0.so
+lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
+lib64/vendor.oppo.hardware.biometrics.fingerprintpay@1.0.so
+lib64/vendor.oppo.hardware.oiface@1.0.so
+
+# Camera
+lib/vendor.mediatek.hardware.camera.device@1.1.so
+lib/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
+lib64/vendor.mediatek.hardware.camera.camdump@1.0.so
+lib64/vendor.mediatek.hardware.camera.device@1.1.so
+lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
+lib/vendor.oppo.hardware.camera.engmode@1.0.so
+lib/vendor.oppo.hardware.camera.slogan@1.0.so
+lib64/vendor.oppo.hardware.camera.engmode@1.0.so
+lib64/vendor.oppo.hardware.camera.slogan@1.0.so
+
+# Commondcs
+-framework/vendor.oppo.hardware.commondcs-V1.0-java.jar
+lib/vendor.oppo.hardware.commondcs@1.0.so
+lib64/vendor.oppo.hardware.commondcs@1.0.so
+
+# Crypto
+-framework/vendor.oppo.hardware.cryptoeng-V1.0-java.jar
+lib/vendor.oppo.hardware.cryptoeng@1.0.so
+lib64/vendor.oppo.hardware.cryptoeng@1.0.so
+
+# DPFS
+lib/vendor.mediatek.hardware.dfps@1.0.so
+lib64/vendor.mediatek.hardware.dfps@1.0.so
+
+# Engnative
+-framework/vendor.oppo.engnative.engineer-V1.0-java.jar
+-framework/vendor.oppo.engnative.engsensor-V1.0-java.jar
+-framework/vendor.oppo.engnative.messager-V1.0-java.jar
+-framework/vendor.oppo.engnative.transfer-V1.0-java.jar
+lib/vendor.oppo.engnative.engineer@1.0.so
+lib/vendor.oppo.engnative.engsensor@1.0.so
+lib/vendor.oppo.engnative.messager@1.0.so
+lib/vendor.oppo.engnative.transfer@1.0.so
+lib64/vendor.oppo.engnative.engineer@1.0.so
+lib64/vendor.oppo.engnative.engsensor@1.0.so
+lib64/vendor.oppo.engnative.messager@1.0.so
+lib64/vendor.oppo.engnative.transfer@1.0.so
+
+# Neuropilot
+lib/libneuropilot.so
+lib/libneuropilot_hal_utils.so
+lib/libneuropilot_jni.so
+lib/vendor.mediatek.hardware.neuropilot@1.0.so
+lib64/libneuropilot.so
+lib64/libneuropilot_hal_utils.so
+lib64/libneuropilot_jni.so
+lib64/vendor.mediatek.hardware.neuropilot@1.0.so
+
+# NVRAM
+lib/libnvram_mtk.so
+lib/libnvram_platform_mtk.so
+lib/libnvram_sec_mtk.so
+lib/libcustom_nvram_mtk.so
+lib64/libcustom_nvram_mtk.so
+lib64/libnvram_mtk.so
+lib64/libnvram_platform_mtk.so
+lib64/libnvram_sec_mtk.so
+lib/vendor.mediatek.hardware.nvram@1.0.so
+lib/vendor.mediatek.hardware.nvram@1.1.so
+lib64/vendor.mediatek.hardware.nvram@1.0.so
+lib64/vendor.mediatek.hardware.nvram@1.1.so
+
+# Power
+lib/vendor.mediatek.hardware.power@2.0.so
+lib/vendor.mediatek.hardware.power@2.1.so
+lib64/vendor.mediatek.hardware.power@2.0.so
+lib64/vendor.mediatek.hardware.power@2.1.so
+
+# PQ
+lib/vendor.mediatek.hardware.pq@2.0.so
+lib/vendor.mediatek.hardware.pq@2.1.so
+lib/vendor.mediatek.hardware.pq@2.2.so
+lib/vendor.mediatek.hardware.pq@2.3.so
+lib64/vendor.mediatek.hardware.pq@2.0.so
+lib64/vendor.mediatek.hardware.pq@2.1.so
+lib64/vendor.mediatek.hardware.pq@2.2.so
+lib64/vendor.mediatek.hardware.pq@2.3.so
+
+# Radio
+lib/vendor.mediatek.hardware.radio@1.1.so
+lib/vendor.mediatek.hardware.radio@3.0.so
+lib/vendor.mediatek.hardware.radio@3.1.so
+lib/vendor.mediatek.hardware.radio@3.2.so
+lib/vendor.mediatek.hardware.radio@3.3.so
+lib/vendor.mediatek.hardware.radio@3.4.so
+lib/vendor.mediatek.hardware.radio@3.5.so
+lib/vendor.mediatek.hardware.videotelephony@1.0.so
+lib64/vendor.mediatek.hardware.radio@1.1.so
+lib64/vendor.mediatek.hardware.radio@3.0.so
+lib64/vendor.mediatek.hardware.radio@3.1.so
+lib64/vendor.mediatek.hardware.radio@3.2.so
+lib64/vendor.mediatek.hardware.radio@3.3.so
+lib64/vendor.mediatek.hardware.radio@3.4.so
+lib64/vendor.mediatek.hardware.radio@3.5.so
+lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
