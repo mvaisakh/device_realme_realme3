@@ -28,6 +28,10 @@ endif
 PRODUCT_COPY_FILES := \
 	$(LOCAL_KERNEL):kernel
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay
+
 # Audio configs
 PRODUCT_COPY_FILES := \
     $(DEVICE_PATH)/configs/audio/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
